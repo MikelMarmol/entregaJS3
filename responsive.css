@@ -1,0 +1,23 @@
+@media (max-width: 415px) {
+    body {
+        overflow-x: hidden;
+    }
+    .container-generador {
+        width: 90%;
+        height: 70%;
+    }
+
+    .img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+}

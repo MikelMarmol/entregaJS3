@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    background-image: url(img/franquicia-pizzas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .contenedor {
+    background-color: rgba(255, 218, 188, 0.209);
+    width: 100vw;
+    height: 100vh;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 46px;
+    margin: 20px;
+    margin-top: 200px;
+    color: white;
+    text-shadow: 0 0 12px rgb(0, 0, 0);
+  }
+  
+  #form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+ 
+  #input-txt {
+    width: 150px;
+    height: 30px;
+    padding: 0px 20px;
+    background-color: rgba(146, 146, 146, 0.821);
+    border-radius: 20px;
+    border-style: none;
+  }
+
+  #btn-submit {
+    background-color: rgba(146, 146, 146, 0.688);
+    border-style: none;
+    border-radius: 20px;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+  }
+  
+  .display {
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: rgba(146, 146, 146, 0.688);
+    box-shadow: 0 2px 5px rgb(186, 185, 185);
+    border-radius: 20px;
+  }
+  
+  .foto {
+    width: 250px;
+    background-position: center;
+    border-radius: 20px;
+  }
+  
+  .display-info {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .titulo {
+    font-size: 22px;
+  }
+  
+  .ingredientes {
+    font-size: 15px;
+    font-style: italic;
+  }
+  
+  .precio {
+    font-weight: bold;
+  }
+  
+  .error {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+    text-shadow: 0 0 8px white;
+    text-align: center;
+  }
+  
