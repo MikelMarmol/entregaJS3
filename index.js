@@ -60,6 +60,9 @@ let pizzaOk;
 //Obtengo el id de la ultima pizza desde localStorage
 const ultima = JSON.parse(localStorage.getItem("ultimaPizza"));
 console.log(ultima);
+if (ultima) {
+  imprimePizza(ultima);
+}
 
 
 function imprimePizza(cualPizza) {
